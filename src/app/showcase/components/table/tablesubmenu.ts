@@ -25,6 +25,7 @@ import {Component} from '@angular/core';
                 <li><a [routerLink]="['/table/contextmenu']">&#9679; ContextMenu</a></li>
                 <li><a [routerLink]="['/table/responsive']">&#9679; Responsive</a></li>
                 <li><a [routerLink]="['/table/crud']">&#9679; Crud</a></li>
+                <li><a [routerLink]="['/table/ellipsis']">&#9679; Ellipsis</a></li>
             </ul>
         </div>
     `

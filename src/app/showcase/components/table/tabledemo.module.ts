@@ -34,6 +34,8 @@ import { TableEditDemo } from './tableeditdemo';
 import { TableRowGroupDemo } from './tablerowgroupdemo';
 import { TabViewModule } from '../../../components/tabview/tabview';
 import { CodeHighlighterModule } from '../../../components/codehighlighter/codehighlighter';
+import { TooltipModule } from '../../../components/tooltip/tooltip';
+import { TableEllipsisDemo } from './tableellipsis';
 
 @NgModule({
 	imports: [
@@ -50,6 +52,7 @@ import { CodeHighlighterModule } from '../../../components/codehighlighter/codeh
 		GrowlModule,
 		InputTextModule,
 		TabViewModule,
+		TooltipModule,
 		CodeHighlighterModule
 	],
 	declarations: [
@@ -73,7 +76,8 @@ import { CodeHighlighterModule } from '../../../components/codehighlighter/codeh
 		TableColResizeDemo,
 		TableColReorderDemo,
 		TableEditDemo,
-		TableRowGroupDemo
+		TableRowGroupDemo,
+		TableEllipsisDemo
 	]
 })
 export class TableDemoModule { }
